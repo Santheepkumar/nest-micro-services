@@ -1,0 +1,14 @@
+### find all orders
+GET http://localhost:3000/orders
+
+### create orders
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+    "product": "Phone",
+    "rating": 5
+}
+
+### products
+GET http://localhost:3000/products
